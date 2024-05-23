@@ -3,9 +3,9 @@ def part(arr,lb,ub):
     start=lb
     end=ub
     while (start<end):
-        while start<end and   arr[start]<=pi:
+        while start<end and   pi>=arr[start]:
             start=start+1
-        while (end>=start and arr[end]>pi):
+        while (end>=start and pi<arr[end]):
             end=end-1
            
         if (start<end):
@@ -27,7 +27,7 @@ def quick(arr,lb,ub):
 
     
     
-a=[7,6,10,5,9,2,1,15,7]
+a=[9,15,10,2]
 b=tuple(a)
 print("before sorting  :",list(b))
 size=len(a)
