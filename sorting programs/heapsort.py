@@ -6,7 +6,7 @@ def heapsort(arr,size):
         arr[0]=arr[j]
         arr[j]=t
         maxheap(arr,0,j)
-
+        
 def maxheap(arr,i,size):
     while (2*i+1<size):
         child=2*i+1
