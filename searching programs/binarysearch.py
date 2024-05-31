@@ -14,8 +14,8 @@ def binarysearch(arr,lb,ub,x):
             ub=mid-1
             return binarysearch(arr,lb,ub,x)
     return s
-data=[1,2,3,4,6,7,8,9,10]
-x=8
+data=[0,1,2,4,5,6,7]
+x=0
 r=binarysearch(data,0,len(data)-1,x)
 if (r==None):
     print("element not found in array")
