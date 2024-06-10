@@ -6,7 +6,7 @@
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         temp=ListNode(0)#creating temporary node for head
-        temp.next=head#giving temprory node as hea
+        temp.next=head#giving temprory node as head
         leftptr=temp
         rightptr=temp
         for i in range(n):
